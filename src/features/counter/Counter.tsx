@@ -9,6 +9,9 @@ import {
 } from './counterSlice';
 import styles from './Counter.module.css';
 
+/**
+ * This is a test of  git push from vaio 
+ */
 export function Counter() {
   const count = useSelector(selectCount);
   const dispatch = useDispatch();
